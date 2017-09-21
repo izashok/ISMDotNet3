@@ -1,0 +1,6 @@
+F:\ISM\ISMDotNet3\Arrays3\bin\Debug\Arrays3.exe.config
+F:\ISM\ISMDotNet3\Arrays3\bin\Debug\Arrays3.exe
+F:\ISM\ISMDotNet3\Arrays3\bin\Debug\Arrays3.pdb
+F:\ISM\ISMDotNet3\Arrays3\obj\Debug\Arrays3.exe
+F:\ISM\ISMDotNet3\Arrays3\obj\Debug\Arrays3.pdb
+F:\ISM\ISMDotNet3\Arrays3\obj\Debug\Arrays3.csprojResolveAssemblyReference.cache
