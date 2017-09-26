@@ -1,0 +1,4 @@
+F:\ISM\ISMDotNet3\arraysISM\bin\Debug\arraysISM.dll
+F:\ISM\ISMDotNet3\arraysISM\bin\Debug\arraysISM.pdb
+F:\ISM\ISMDotNet3\arraysISM\obj\Debug\arraysISM.dll
+F:\ISM\ISMDotNet3\arraysISM\obj\Debug\arraysISM.pdb

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays2", "Arrays2\Arrays2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays3", "Arrays3\Arrays3.csproj", "{C13CE4FE-5D95-4857-9707-69212DDC9BB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arraysISM", "arraysISM\arraysISM.csproj", "{C2808AC3-0993-4FAD-9BB7-034B2A79AB15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C13CE4FE-5D95-4857-9707-69212DDC9BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C13CE4FE-5D95-4857-9707-69212DDC9BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C13CE4FE-5D95-4857-9707-69212DDC9BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2808AC3-0993-4FAD-9BB7-034B2A79AB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2808AC3-0993-4FAD-9BB7-034B2A79AB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2808AC3-0993-4FAD-9BB7-034B2A79AB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2808AC3-0993-4FAD-9BB7-034B2A79AB15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
