@@ -9,20 +9,19 @@ namespace arraysISM
 {
     public class arr1
     {
-        public static void Zero(int[] integers, out int S1)
+        public static int Zero(params int[] integers)
         {
 
-            S1 = 0; // Сума елементів менших за 0 початок
+            int S1 = 0; // Сума елементів менших за 0 початок
             for (int i = 0; i < integers.Length; i++)
             {
                 if (integers[i] < 0)
                 {
-                    S1 = S1 + integers[i];
+                    S1 += integers[i];
                 }
 
             }
-
-
+            return S1;
         }
 
         public static void MaxE(int[] integers, ref int minr, out int maxE, out int maxEn)
@@ -39,6 +38,8 @@ namespace arraysISM
                     maxEn = i;
                 }
             }
+            Console.WriteLine($"{maxE},{maxEn}");
+          
         }
 
         public static void Mod(int[] integers, out int mod, out int modn)
@@ -56,7 +57,7 @@ namespace arraysISM
 
         }
 
-        public static int Dod(int[] integers)
+        public static int Dod( params int[] integers)
         {
             int S2 = 0;// Сума індексів додатніх елементів
             for (int i = 0; i < integers.Length; i++)
@@ -180,7 +181,7 @@ namespace arraysISM
             //кінець третього завдання
         }
 
-        public static void SumaMod(int[] arr1, ref int maxr)
+        public static void SumaMod(int[] arr1, ref int maxr,out int dob)
         {
             //початок четвертого завдання
             int ModMax = 0, ModMin = maxr, ModMNx = 0, ModMXx = 0;
@@ -207,7 +208,7 @@ namespace arraysISM
 
 
             }
-            int dob = 1;
+             dob = 1;
             for (int i = ModMNx + 1; i < ModMXx; i++)
             {
                 dob = dob * arr1[i];
@@ -235,7 +236,7 @@ namespace arraysISM
             //кінець першого завдання
         }
 
-        public static void SumaZero1(int[,] matr1, ref int minr, ref int m, ref int n, out int MAX)
+        public static void SumaZero2(int[,] matr1, ref int minr, ref int m, ref int n, out int MAX)
         {
             //початок другого завдання
             MAX = minr;
@@ -282,7 +283,7 @@ namespace arraysISM
 
 
             }
-            Console.WriteLine("Макс. число, повтор. больше раза МАХ={0}", MAX);
+            
             // кінець другого завдання
         }
 
@@ -452,10 +453,11 @@ namespace arraysISM
             //кінець сьомого
         }
 
-        public static void SumaColZero(int[,] matr1, out int i, out int sumas)
+        public static void SumaColZero(int[,] matr1)
         {
             //початок восьмого
-            sumas = 0;
+           int sumas = 0;
+            int i;
             for (i = 0; i < matr1.GetLength(0); i++)
             {
                 sumas = 0;
